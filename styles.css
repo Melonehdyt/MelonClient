@@ -1,0 +1,173 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Background GIF */
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-gif {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+/* Header & Navigation Bar */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.cta-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #444;
+}
+
+/* Download Section */
+.download {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.download h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.download .download-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.download .download-btn:hover {
+    background-color: #444;
+}
+
+/* News Section */
+.news {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.news h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.news .news-article {
+    margin-bottom: 30px;
+}
+
+.news .news-article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.news .news-article p {
+    font-size: 1rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.discord-btn {
+    display: inline-block;
+    background-color: #7289da;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.discord-btn:hover {
+    background-color: #5b6e8e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
