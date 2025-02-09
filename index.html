@@ -1,76 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Melon Client - Your custom Minecraft PvP client">
     <title>Melon Client</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Background GIF -->
-    <div class="background-container">
-        <img src="https://giffiles.alphacoders.com/105/105320.gif" alt="Background GIF" class="background-gif">
-    </div>
-
-    <!-- Header & Navigation Bar -->
     <header>
-        <div class="logo">
-            <img src="logo.png" alt="Melon Client Logo">
+        <div class="logo"><img src="logo.png" alt="Melon Client Logo"></div>
+        <div class="welcome-text">
+            <h1>Welcome to Melon Client</h1>
+            <p>Melon Client - The best 1.8.9 Minecraft Client</p>
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
                 <li><a href="#download">Download</a></li>
                 <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#discord">Discord</a></li>
             </ul>
         </nav>
     </header>
-
-    <!-- Home Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h2>Welcome to Melon Client</h2>
-            <p>The ultimate Minecraft 1.8.9 PvP client for top-tier performance in competitive battles.</p>
-            <a href="#download" class="cta-btn">Download Now</a>
-        </div>
-    </section>
-
-    <!-- Download Section -->
-    <section id="download" class="download">
+    
+    <section id="download">
         <h2>Download Melon Client</h2>
-        <p>Get ready for optimized PvP performance with the Melon Client. Perfect for 1.8.9 PvP battles, featuring low latency, FPS boost, and customizable settings to give you the competitive edge!</p>
-        <a href="download-link-here" class="download-btn">Download for 1.8.9</a>
+        <a href="#" class="cta-btn">Download Now</a>
     </section>
 
-    <!-- News Section -->
-    <section id="news" class="news">
+    <section id="news">
         <h2>Latest News</h2>
-        <div class="news-article">
-            <h3>Performance Boost for PvP</h3>
-            <p>Melon Client now comes with improved FPS, reduced latency, and smoother gameplay for Minecraft 1.8.9 PvP. You’ll feel the difference in your performance!</p>
-        </div>
-        <div class="news-article">
-            <h3>Customizable Features</h3>
-            <p>We’ve added features specifically designed for PvP, such as toggleable hitboxes, customizable keybinds, and more! Take full control of your gameplay.</p>
-        </div>
+        <p>What's New in Melon Client?</p>
+        <div class="news-container" id="news-container"></div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>Have any questions? Join our Discord community:</p>
-        <a href="https://discord.com/invite/deinlink" class="discord-btn">
-            <img src="discord-icon.png" alt="Discord Icon"> Join Discord Server
-        </a>
+    <section id="team">
+        <h2>Meet the Team</h2>
+        <div class="team-section">
+            <div class="team-category">
+                <h3>Owner</h3>
+                <div class="team-members" id="owners"></div>
+            </div>
+            <div class="team-category">
+                <h3>Developer</h3>
+                <div class="team-members" id="developers"></div>
+            </div>
+            <div class="team-category">
+                <h3>Staff</h3>
+                <div class="team-members" id="staffs"></div>
+            </div>
+        </div>
     </section>
-
-    <!-- Footer -->
+    
     <footer>
         <p>&copy; 2025 Melon Client. All rights reserved.</p>
     </footer>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
+
