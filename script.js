@@ -1,16 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
     const teamData = {
         owners: [
-            { name: "Owner1", uuid: "d618f8b1-7ea4-40e1-8b23-35958376bf41" },
-            { name: "Owner2", uuid: "uuid2" }
+            { name: "Melon", uuid: "31192189-3829-4fe0-b474-c972c21632e0" },
         ],
         developers: [
-            { name: "Dev1", uuid: "uuid3" },
-            { name: "Dev2", uuid: "uuid4" }
+            { name: "Dev1", uuid: "f81ebc71-12e1-47d9-bab5-dc9a6fa189e3" },
         ],
         staffs: [
-            { name: "Staff1", uuid: "uuid5" },
-            { name: "Staff2", uuid: "uuid6" }
+            { name: "Hapixh", uuid: "d618f8b1-7ea4-40e1-8b23-35958376bf41" },
         ]
     };
 
